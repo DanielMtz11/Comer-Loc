@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(255, 123, 0);
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 86px;
+    height: auto;
+}

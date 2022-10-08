@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    
+
+    <link rel="icon" sizes="72x72" href="./img/Comer Loc PNG Final.png">
+    <title>ComerLoc</title>
+
+
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
 
@@ -49,6 +53,13 @@
         border-radius: 10px;
     }
 
+
+    .link {
+    color:whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
     @media(max-width:473px){
         #p-review{
             display: none;
@@ -64,17 +75,15 @@
             min-width: 130px;
             height: 175px;
             padding-top: 50px;
-            /* padding: 300px; */
         }
     }
-
-
   </style>
 
 
   <body>
+
     <!--todo navbar -->
-      <nav class="navbar navbar-expand-lg " style="background-color: #0b2239">
+      <nav class="navbar navbar-expand-lg " style="background-color: #0b2239;">
         <div class="container-fluid">
             <!-- style="padding-left: 488px; padding-bottom: 14px;" -->
             <a class="navbar-brand" href="#"><img style="width: 100px;" src="./img/Comer Loc PNG Final.png" alt=""></a>
@@ -98,7 +107,6 @@
         </div>
       </nav>
     <!--todo //navbar -->
-
 
      <!-- todo carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -180,6 +188,7 @@
                     </div>
 
                 </div>
+
                 <div class="col-md-4 mt-5">
                     <div class="card">
                         <img src="./img/dress.jpg" class="card-img-top w-100" alt="">
@@ -196,6 +205,7 @@
                     </div>
 
                 </div>
+
                 <div class="col-md-4 mt-5">
                     <div class="card">
                         <img src="./img/sneakers.jpg" class="card-img-top w-100" alt="">
@@ -212,9 +222,61 @@
                     </div>
 
                 </div>
+
                 <div class="col-md-4 mt-5">
                     <div class="card">
                         <img src="./img/headphones.jpg" class="card-img-top w-100" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">title</h2>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text"> Lorem ipsum Recusandae iusto consequatur porro</p>
+                                <p class="card-text mr-4 text-success">$100</p>
+                            </div>
+
+                            <a href="#" class="card-link btn-info" data-toggle="modal" data-target="#modalId" >More</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/glasses2.jpg" class="card-img-top w-100" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">title</h2>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text"> Lorem ipsum Recusandae iusto consequatur porro</p>
+                                <p class="card-text mr-4 text-success">$100</p>
+                            </div>
+
+                            <a href="#" class="card-link btn-info" data-toggle="modal" data-target="#modalId" >More</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/beer.jpg" class="card-img-top w-100" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">title</h2>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text"> Lorem ipsum Recusandae iusto consequatur porro</p>
+                                <p class="card-text mr-4 text-success">$100</p>
+                            </div>
+
+                            <a href="#" class="card-link btn-info" data-toggle="modal" data-target="#modalId" >More</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="./img/clock2.jpg" class="card-img-top w-100" alt="">
                         <div class="card-body">
                             <h2 class="card-title">title</h2>
                             <div class="d-flex justify-content-between">
@@ -235,7 +297,6 @@
         </div>
       <!-- todo //Products -->
 
-      
      <!--todo Modal  -->
         <div class="modal fade" id="modalId" >
             <div class="modal-dialog " style="margin:160px auto;">
@@ -278,6 +339,76 @@
         </div>
     <!--todo //Modal  -->
 
+
+    <!-- todo footer -->
+        <footer class="page-footer" style="background-color: #1d202f;">
+            <div style=" background-color: #0b2239;">
+                <div class="container">
+                    <div class="row py-4 d-flex align-items-center">
+                        <div class="col-md-12 text-center">
+                            <!-- <a href=""></a> -->
+                            <a href="#"><i class="fa-brands fa-lg fa-facebook-f text-white mr-4"></i></a>
+                            <a href="#"><i class="fa-brands fa-lg fa-facebook-messenger text-white mr-4"></i></a>
+                            <a href="#"><i class="fa-brands fa-lg fa-instagram text-white mr-4"></i></a>
+                            <a href="#"><i class="fa-brands fa-lg fa-twitter text-white "></i></a>
+                            <!-- <a href="#"><i> </i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center text-md-left mt-5 text-white">
+                <div class="row">
+                    <div class="col-md-4 mx-auto mb-4 " style="padding-top: 20px">
+                        <h6 class="text-uppercase font-weight-bold">About Us</h6>
+                        <hr class=" mt-0 d-inline-block mx-auto" style="width: 110px; height:2px; background-color: #17a2bd;">
+                        <p class="link">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt aliquam laboriosam quidem obcaecati veritatis culpa? Exercitationem suscipit fugit, dignissimos totam ratione iste asperiores con</p>
+                    </div>
+
+
+                    <div class="col-md-2 mx-auto mb-4" style="padding-top: 20px">
+                        <h6 class="text-uppercase font-weight-bold">Products</h6>
+                        <hr class="mt-0 d-inline-block mx-auto" style="width: 85px; height:2px; background-color: #17a2bd;">
+                        <ul class="list-unstyled">
+                            <li class="my-2" ><a class="link" href="#">HTML5</a></li>
+                            <li class="my-2" ><a class="link" href="#">CSS</a></li>
+                            <li class="my-2" ><a class="link" href="#">Bootstrap</a></li>
+                            <li class="my-2" ><a class="link" href="#">jQuery</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 mx-auto mb-4" style="padding-top: 20px">
+                        <h6 class="text-uppercase font-weight-bold">userfull links</h6>
+                        <hr class="mt-0 d-inline-block mx-auto" style="width: 110px; height:2px; background-color: #17a2bd;">
+                        <ul class="list-unstyled">
+                            <li class="my-2" ><a class="link" href="#">Home</a></li>
+                            <li class="my-2" ><a class="link" href="#">About</a></li>
+                            <li class="my-2" ><a class="link" href="#">Services</a></li>
+                            <li class="my-2" ><a class="link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mx-auto mb-4" style="padding-top: 20px">
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="mt-0 d-inline-block mx-auto" style="width: 75px; height:2px; background-color: #17a2bd;">
+                        <ul class="list-unstyled">
+                            <li class="my-2 link" ><i class="fa-solid fa-house-chimney mr-3 link"></i>location, street 3pk</li>
+                            <li class="my-2 link" ><i class="fa-regular fa-envelope mr-3 link"></i>itemeisa@gmail.com</li>
+                            <li class="my-2 link" ><i class="fa-solid fa-phone mr-3 link"></i>+52 637192839</li>
+                            <li class="my-2 link" ><i class="fa-solid fa-print mr-3 link"></i>+001839023903</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-copyright text-center py-3">
+                        <p>&copy Copyright <a href="#" style="color: #17a2bd;">ComerLoc.com</a></p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </footer>
+    <!-- todo //footer -->
     <script>
         $(document).ready(function(){
             $(".card-link").click(function(){
@@ -297,6 +428,8 @@
         });
     </script>
 
+    <script src="https://kit.fontawesome.com/05c275ca09.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
+
 </html>
